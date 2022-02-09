@@ -8,7 +8,7 @@ function Home() {
     <React.Fragment>
 		<div className="Home_Container">
 			<div className="Home_Content">
-				<h1>Hola Pulga como estas!!!!</h1>
+				<h1>Bienvenido a mi portafolio web, estamos en construncción</h1>
 			</div>
 		</div>
     </React.Fragment>
