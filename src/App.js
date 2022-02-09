@@ -5,7 +5,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route exact path="/" component={Home} />
+        <Route 
+        exact path="/" 
+        element={<Home/>}/>
       </Routes>
     </BrowserRouter>
 
