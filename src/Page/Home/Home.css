@@ -1,73 +1,15 @@
-.NavBar_Container{
-    width: 100%;
-    height: 60px;
-    background-color: #1B2127;
-}
-
-.NavBar_Content{
+.Home_Container{
     width: 100%;
     height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     margin: 0px;
-    padding: 0px 10px;
+    padding: 0px;
 }
-
-.Logo_Container{
-    width: 40%;
-    height: 100%;
-    display: flex;
-}
-.Logo_Image_Content{
-    width: 50px;
+.Home_Content{
+    width: 100%;
     height: 100%;
     display: flex;
     justify-content: center;
-    align-self: center;
-    margin: 0px;
-    padding: 0px;
-}
-.Logo_Name_Content{
-    width: 100%;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
     align-items: center;
-    margin: 0px 0px 0px 10px;
-    padding: 0px;
-}
-.Logo_Name_Content_Name{
-    width: 100%;
-    font-size: 20px;
-    color: #FFFFFF;
-    margin: 0px;
-    padding: 0px;
-}
-
-.Logo_Name_Content_Description{
-    width: 100%;
-    font-size: 16px;
-    color: #FFFFFF;
-    margin: 0px;
-    padding: 0px;
-}
-
-.NavBar_Navegation_Content{
-    width: 60%;
-    height: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.NavBar_Navegation_Text{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 16px;
-    color: #FFFFFF;
     margin: 0px;
     padding: 0px;
 }
