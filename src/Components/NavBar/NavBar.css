@@ -6,17 +6,15 @@
 }
 
 .NavBar_Content {
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin: 0px;
-    padding: 5px 10px;
+    padding: 5px 25px;
 }
 
 .NavBar_Logo_Content {
-    width: 40%;
+    width: 30%;
     height: 100%;
     display: flex;
     justify-content: flex-start;
@@ -36,7 +34,7 @@
 }
 
 .Navbar_Options_Content {
-    width: 60%;
+    width: 70%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,8 +44,6 @@
 }
 
 .NavBar_Options_Text {
-    width: 100%;
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -56,4 +52,20 @@
     color: #717E99;
     margin: 0px;
     padding: 0px;
+}
+.NavBar_Options_Text.true {
+    color: #FC5073;
+    border-bottom: 2px solid #FC5073;
+    border-radius: 1px;
+}
+
+@media screen and (max-width: 800px) {
+ .NavBar_Logo_Content{
+     width: 100%;
+     justify-content: center;
+ }   
+ .Navbar_Options_Content{
+     display: none;
+ }
+    
 }

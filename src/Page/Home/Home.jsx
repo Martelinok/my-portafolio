@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import { useTranslate } from "react-translate";
 /* ---------------------------- import components --------------------------- */
 import NavBar from "../../Components/NavBar/NavBar";
@@ -7,7 +7,7 @@ import SvgIcon from "../../Assets/Images/SvgIcon"
 import './Home.css';
 function Home() {
   let t = useTranslate("NavBar");
-  const [navigation, setNavigation] = useState('Home');
+
   return (
     <React.Fragment>
       <div className="Home_Container">
