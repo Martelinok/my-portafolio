@@ -1,0 +1,11 @@
+{
+    "locale": "en-us",
+    "NavBar":{
+        "Home":"Home",
+        "Services":"Services",
+        "Projects":"Projects",
+        "AboutMe":"About me",
+        "Contact":"Contact"
+
+    }
+}

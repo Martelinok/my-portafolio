@@ -1,15 +1,18 @@
 .Home_Container{
     width: 100%;
-    height: 100%;
+    height: 100vh;
+    background-color: #14134A;
     margin: 0px;
     padding: 0px;
 }
 .Home_Content{
     width: 100%;
+    max-width: 1200px;
     height: 100%;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
     align-items: center;
-    margin: 0px;
+    justify-content: flex-start;
+    margin: 0px auto;
     padding: 0px;
 }

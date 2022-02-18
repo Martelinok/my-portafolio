@@ -1,0 +1,11 @@
+{
+    "locale": "es-mx",
+    "NavBar":{
+        "Home":"Home",
+        "Services":"Services",
+        "Projects":"Projects",
+        "About":"About",
+        "Contact":"Contact"
+
+    }
+}
