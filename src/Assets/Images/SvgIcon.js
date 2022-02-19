@@ -26,7 +26,7 @@ export default function SvgIcon({
         <path d="M7.97687 19.6422C8.39338 20.1193 9.0687 20.1193 9.48521 19.6422C9.90173 19.1651 9.90173 18.3917 9.48521 17.9146L2.57501 10L9.48521 2.08538C9.90173 1.60832 9.90173 0.83485 9.48521 0.357793C9.0687 -0.119264 8.39338 -0.119264 7.97687 0.357793L0.318715 9.12908L0.312416 9.13611C-0.104139 9.61322 -0.104139 10.3868 0.312416 10.8639L0.312495 10.8638L7.97684 19.6422L7.97687 19.6422V19.6422Z" fill={fill} />
       </svg>
     ),
-    En: (
+    en: (
       <svg width="30" height="30" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="20" cy="20" r="20" fill="#1A3086" />
         <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="40" height="40">
@@ -48,7 +48,7 @@ export default function SvgIcon({
         </g>
       </svg>
     ),
-    Es: (
+    es: (
       <svg width="32" height="30" viewBox="0 0 42 40" fill="none" xmlns="http://www.w3.org/2000/svg">
         <circle cx="21" cy="20" r="20" fill="#E5313D" />
         <mask id="mask0" mask-type="alpha" maskUnits="userSpaceOnUse" x="0" y="10" width="42" height="20">

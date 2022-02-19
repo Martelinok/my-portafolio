@@ -1,5 +1,5 @@
 const INITIALSTATE = {
-    Language: 'En',
+    Language: 'en',
     loader: false,
     navegationOptions:"Home"
 };

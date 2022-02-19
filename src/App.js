@@ -12,7 +12,7 @@ import configureStore from './Redux/Store/Store';
 const store = configureStore();
 function App() {
   const cookies = new Cookies();
-  const [user, setUser] = useState(cookies.get("language") || "En");
+  const [user, setUser] = useState(cookies.get("language") || "en");
 
   return (
     <Provider store={store}>
@@ -20,7 +20,7 @@ function App() {
         value={{ user, setUser }}
       >
         <TranslatorProvider
-          translations={require(`./Assets/Lang/${user}.json`)}
+          translations={require(`./Assets/lang/${user}.json`)}
         >
           <BrowserRouter>
             <Routes>

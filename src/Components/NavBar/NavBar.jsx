@@ -58,7 +58,7 @@ function NavBar({ image, Home, Services, Projects, AboutMe, Contact, dispatch, L
             <p className={`NavBar_Options_Text ${navigation === "Contact" ? true : false}`} onClick={() => onClickOption('Contact')}>{Contact}</p>
           </div>
           <div className="NavBar_Language_Content">
-            <div className="NavBar_Language_Image" onClick={() => changelaanguage(user === "En" ? "Es" : "En")}>
+            <div className="NavBar_Language_Image" onClick={() => changelaanguage(user === "en" ? "es" : "en")}>
               <SvgIcon name={user} />
             </div>
           </div>
