@@ -1,14 +1,29 @@
 import React, { useState } from "react";
 import SvgIcon from "../../Assets/Images/SvgIcon";
+import { connect } from "react-redux";
+import { Cookies } from 'react-cookie';
+import { useAuth } from "../Context/auth";
+
 /* ------------------------------ Import Styles ----------------------------- */
 import "./NavBar.css";
 
-function NavBar({ image, Home, Services, Projects, AboutMe, Contact }) {
+function NavBar({ image, Home, Services, Projects, AboutMe, Contact, dispatch, Language }) {
   const [navigation, setNavigation] = useState('Home');
   const [sideBar, setSideBar] = useState(false);
+  const {user, setUser} = useAuth();
+
+  let cookies = new Cookies();
 
   const onClickOption = (option) => {
     setNavigation(option);
+    dispatch({ type: "SET_NAVEGATION_OPTIONS", payload: option });
+    setSideBar(false);
+  }
+  const changelaanguage = (language) => {
+    dispatch({ type: "SET_LANGUAGE", payload: language });
+    cookies.remove('user')
+    cookies.set('language', language)
+    setUser(language)
   }
   return (
     <React.Fragment>
@@ -42,9 +57,17 @@ function NavBar({ image, Home, Services, Projects, AboutMe, Contact }) {
             <p className={`NavBar_Options_Text ${navigation === "AboutMe" ? true : false}`} onClick={() => onClickOption('AboutMe')}>{AboutMe}</p>
             <p className={`NavBar_Options_Text ${navigation === "Contact" ? true : false}`} onClick={() => onClickOption('Contact')}>{Contact}</p>
           </div>
+          <div className="NavBar_Language_Content">
+            <div className="NavBar_Language_Image" onClick={() => changelaanguage(user === "En" ? "Es" : "En")}>
+              <SvgIcon name={user} />
+            </div>
+          </div>
         </div>
       </div>
     </React.Fragment>
   );
 }
-export default NavBar;  
+const mapStateToProps = (state) => ({
+  Language: state.stateReducer.Language,
+});
+export default connect(mapStateToProps)(NavBar);

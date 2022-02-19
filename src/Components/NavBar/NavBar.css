@@ -90,7 +90,7 @@
 }
 
 .NavBar_Logo_Content {
-    width: 30%;
+    width: 20%;
     height: 100%;
     display: flex;
     justify-content: flex-start;
@@ -116,7 +116,7 @@
     align-items: center;
     cursor: pointer;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 10px;
 }
 
 .NavBar_Options_Text {
@@ -134,6 +134,26 @@
     color: #FC5073;
     border-bottom: 2px solid #FC5073;
     border-radius: 1px;
+}
+
+.NavBar_Language_Content{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.NavBar_Language_Image{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0px;
+    padding: 0px;
 }
 
 @media screen and (max-width: 800px) {
