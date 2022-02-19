@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import SvgIcon from "../../Assets/Images/SvgIcon";
+import SvgIcon from "../../assets/Images/SvgIcon";
 import { connect } from "react-redux";
 import { Cookies } from 'react-cookie';
 import { useAuth } from "../Context/auth";

@@ -20,7 +20,7 @@ function App() {
         value={{ user, setUser }}
       >
         <TranslatorProvider
-          translations={require(`./Assets/lang/${user}.json`)}
+          translations={require(`./assets/lang/${user}.json`)}
         >
           <BrowserRouter>
             <Routes>

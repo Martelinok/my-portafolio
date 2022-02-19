@@ -4,7 +4,7 @@ import { connect } from "react-redux";
 
 /* ---------------------------- Import Components --------------------------- */
 import NavBar from "../../Components/NavBar/NavBar";
-import SvgIcon from "../../Assets/Images/SvgIcon"
+import SvgIcon from "../../assets/Images/SvgIcon"
 import Home from "../Home/Home";
 import Services from "../Services/Services";
 import Projects from "../Projects/Projects";
