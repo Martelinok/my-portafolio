@@ -1,0 +1,217 @@
+.Home_Content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 0px 0px;
+    padding: 0px 0px 50px 0px;
+}
+
+.Home_Me_Content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Home_Name_Content {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Home_Name_Content_P {
+    /* width: 100%; */
+    font-size: 1rem;
+    color: #74809B;
+    font-weight: bold;
+    margin: 5px;
+    padding: 0px;
+}
+
+.Home_Name_Content_H1 {
+    /* width: 100%; */
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 5px;
+    padding: 0px;
+}
+
+.Home_Name_Content_H2 {
+    /* width: 100%; */
+    font-size: 2em;
+    color: #74809B;
+    font-weight: bold;
+    margin: 5px;
+    padding: 0px;
+}
+
+.Home_SocialMedia_Content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    margin: 25px 5px 5px 5px;
+    padding: 0px;
+}
+
+.Home_SocialMedia_Content_Text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 15px 0px 0px;
+    padding: 0px;
+}
+
+.Home_SocialMedia_P {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    color: #74809B;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Home_SocialMedia_Image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    margin: 0px 15px 0px 0px;
+    padding: 0px;
+}
+
+.Home_Image_Content {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Home_Image_Content_Style {
+    width: 100%;
+    max-width: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px 20px 5px 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .Home_Name_Content_H1 {
+        font-size: 2rem;
+    }
+
+    .Home_Name_Content_H2 {
+        font-size: 1.5rem;
+    }
+}
+
+.Home_What_Do_Content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 0px 0px;
+    padding: 0px;
+}
+
+.Home_What_Do_Widget_Content {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Home_What_Do_Text_Content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px 15px;
+}
+
+.Home_What_Do_Text_Title_Content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Home_What_Do_Text_Title_Line {
+    width: 100%;
+    max-width: 50px;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FC5073;
+    border-radius: 5px;
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+}
+
+.Home_What_Do_Text_Title_H3 {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Home_What_Do_P_Content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.Home_What_Do_P {
+    font-size: 1rem;
+    color: #ffffffbe;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .Home_What_Do_Content {
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .Home_What_Do_Widget_Content {
+        width: 100%;
+    }
+
+    .Home_What_Do_Text_Content {
+        width: 100%;
+        margin: 25px 0px 0px 0px;
+    }
+
+}

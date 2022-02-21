@@ -1,0 +1,54 @@
+.Widget_Content{
+    width: 100%;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0px 10px 0px 0px;
+    padding: 5px 15px;
+}
+.Widget_Title_Content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.Widget_Image_Content{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+}
+.Widget_Title_Content_Text{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.Widget_Title_Content_Text_H3{
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    margin: 0px;
+    padding: 0px;
+}
+.Widget_Text_Content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.Widget_Text_P{
+    font-size: 1rem;
+    color: #ffffffbe;
+    margin: 0px;
+    padding: 0px;
+}

@@ -3,9 +3,18 @@
     "NavBar":{
         "Home":"Inicio",
         "Services":"Servicios",
-        "Projects":"Projectos",
+        "Projects":"Proyectos",
         "AboutMe":"Acerca",
         "Contact":"Contacto"
-
+    },
+    "Home":{
+        "Iam":"Hola, soy",
+        "Name":"Kevin Martello Mayorga Cleveland",
+        "Profesion":"Ingeniero Mecatrónico | Desarrollador Front-End",
+        "Follow":"Sígueme",
+        "WhatDo":"¿Qué hago?",
+        "WhatDoText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero. Fusce vel tempor nibh, eu accumsan arcu. Etiam sollicitudin euismod lacus sed laoreet. Nunc ut viverra lorem, sed blandit orci.",
+        "WebApp":"Web App",
+        "WebAppText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero. Fusce vel tempor nibh, eu accumsan arcu. Etiam sollicitudin euismod lacus sed laoreet. Nunc ut viverra lorem, sed blandit orci."
     }
 }
