@@ -16,6 +16,12 @@
         "WhatDoText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero. Fusce vel tempor nibh, eu accumsan arcu. Etiam sollicitudin euismod lacus sed laoreet. Nunc ut viverra lorem, sed blandit orci.",
         "WebApp":"Web App",
         "WebAppText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero. Fusce vel tempor nibh, eu accumsan arcu. Etiam sollicitudin euismod lacus sed laoreet. Nunc ut viverra lorem, sed blandit orci."
-
+    },
+    "AboutMe":{
+        "AboutMe":"Acerca de mí",
+        "AboutMeTitle":"I can give the best thath you always wanted",
+        "AboutMeText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero. Fusce vel tempor nibh, eu accumsan arcu. Etiam sollicitudin euismod lacus sed laoreet. Nunc ut viverra lorem, sed blandit orci.",
+        "MySkills":"My Skills",
+        "MySkillsText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero. Fusce vel tempor nibh, eu accumsan arcu. Etiam sollicitudin euismod lacus sed laoreet. Nunc ut viverra lorem, sed blandit orci."
     }
 }

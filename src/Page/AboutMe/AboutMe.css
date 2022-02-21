@@ -1,0 +1,207 @@
+.AboutMe_Container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 0px 0px;
+    padding: 0px 0px 50px 0px;
+}
+.AboutMe_Content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.AboutMe_Text_Content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.AboutMe_Text_Title_Content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.AboutMe_Title_Line {
+    width: 100%;
+    max-width: 50px;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FC5073;
+    border-radius: 5px;
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+}
+
+.AboutMe_Text_Title {
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+.AboutMe_Text_Big_Title_Content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+.AboutMe_Text_Big_Title_H1{
+    font-size: 2.5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+
+.AboutMe_Text_P_Content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+
+.AboutMe_Text_P {
+    font-size: 1rem;
+    color: #ffffffbe;
+    margin: 0px;
+    padding: 0px;
+}
+
+.AboutMe_Image_Content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+.AboutMe_Image_Pair_Style{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 0px;
+}
+
+@media screen and (max-width: 800px) {
+    .AboutMe_Content{
+        flex-direction: column-reverse;
+    }
+    .AboutMe_Text_Content{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .AboutMe_Image_Content{
+        width: 100%;
+    }
+}
+
+.AboutMe_MySkills_Content{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 25px 0px 0px 0px;
+    padding: 0px;
+}
+.MySkills_Image_Content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.MySkills_Image_Style{
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    margin: 5px;
+    padding: 0px;
+}
+.MySkills_Text_Content{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.MySkills_Title_Content{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+.MySkills_Title_Line{
+    width: 100%;
+    max-width: 50px;
+    height: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FC5073;
+    border-radius: 5px;
+    margin: 0px 5px 0px 0px;
+    padding: 0px;
+}
+.MySkills_Text_Title{
+    font-size: 1.5rem;
+    color: #FFFFFF;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+}
+.MySkills_Text_P_Content {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+
+.MySkills_Text_P {
+    font-size: 1rem;
+    color: #ffffffbe;
+    margin: 0px;
+    padding: 0px;
+}
+@media screen and (max-width: 800px) {
+    .AboutMe_MySkills_Content{
+        flex-direction: column-reverse;
+    }
+    .MySkills_Image_Content{
+        width: 100%;
+        margin-top: 25px;
+    }
+    .MySkills_Text_Content{
+        width: 100%;
+    }
+}
