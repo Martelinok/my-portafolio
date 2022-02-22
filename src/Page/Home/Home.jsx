@@ -20,13 +20,13 @@ function Home() {
               <div className="Home_SocialMedia_Content_Text">
                 <p className="Home_SocialMedia_P">{t("Follow")}</p>
               </div>
-              <a className="Home_SocialMedia_Image" href="https://www.facebook.com/kamil.m.c.mendoza">
+              <a className="Home_SocialMedia_Image" href="https://github.com/Martelinok">
                 <SvgIcon name="Github" fill="#FC5073" />
               </a>
-              <a className="Home_SocialMedia_Image" href="https://www.facebook.com/kamil.m.c.mendoza">
+              <a className="Home_SocialMedia_Image" href="https://linkedin.com/in/Martelinok">
                 <SvgIcon name="LinkedIn" fill="#FC5073" />
               </a>
-              <a className="Home_SocialMedia_Image" href="https://www.facebook.com/kamil.m.c.mendoza">
+              <a className="Home_SocialMedia_Image" href="https://www.instagram.com/Martelinok/">
                 <SvgIcon name="Instagram" fill="#FC5073" />
               </a>
             </div>
@@ -47,9 +47,9 @@ function Home() {
             <Widget
               Color1="rgba(46, 33, 175, 1)"
               Color2="rgba(106, 91, 226, 1)"
-              Title={t("WebApp")}
-              Image={<SvgIcon name="WebApp" fill="#FC5073" />}
-              Text={t("WebAppText")}
+              Title={t("WebPlatform")}
+              Image={<SvgIcon name="WebPlatform" fill="#FC5073" />}
+              Text={t("WebPlatformText")}
             />
           </div>
           <div className="Home_What_Do_Text_Content">

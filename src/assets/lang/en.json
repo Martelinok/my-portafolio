@@ -10,24 +10,27 @@
     "Home":{
         "Iam":"Hello, I am",
         "Name":"Kevin Martello Mayorga Cleveland",
-        "Profesion":"Mecatronic Engineer | Front-end Developer",
+        "Profesion":"Mecatronic Engineer | Full Stack Developer",
         "Follow":"Follow me",
         "WhatDo":"What i do?",
-        "WhatDoText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero. Fusce vel tempor nibh, eu accumsan arcu. Etiam sollicitudin euismod lacus sed laoreet. Nunc ut viverra lorem, sed blandit orci.",
+        "WhatDoText":"I like to develop tools that impact and improve people’s life quality. I encourage quality results-oriented teamwork and effective problem resolution.",
         "WebApp":"Web App",
-        "WebAppText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero. Fusce vel tempor nibh, eu accumsan arcu. Etiam sollicitudin euismod lacus sed laoreet. Nunc ut viverra lorem, sed blandit orci."
+        "WebAppText":"Development of web applications for the community, from an idea to a complete application.",
+        "WebPlatform":"Web Platform",
+        "WebPlatformText":"Development of web platforms that provide solutions to the specific needs of the client."
     },
     "AboutMe":{
         "AboutMe":"Acerca de mí",
         "AboutMeTitle":"I can give the best thath you always wanted",
-        "AboutMeText":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero. Fusce vel tempor nibh, eu accumsan arcu. Etiam sollicitudin euismod lacus sed laoreet. Nunc ut viverra lorem, sed blandit orci.",
+        "AboutMeText":"Mechatronic Engineer, Programmer and Software Developer. Tech lover, I like to develop tools that impact and improve people’s life quality. I encourage quality results-oriented teamwork and effective problem resolution. Between my competencies I emphasize my leadership, project management, SCRUM, responsibility, adaptability, communication, negotiation skills and commitment.",
         "MySkills":"My Skills",
-        "MySkillsText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero. Fusce vel tempor nibh, eu accumsan arcu. Etiam sollicitudin euismod lacus sed laoreet. Nunc ut viverra lorem, sed blandit orci."
+        "MySkillsText": "Management of languages, such as Java Script, HTML, CSS, SQL, Node, React. Management of development tools such as Git, GitHub, Visual Studio. Management of design tools such as Figma and Solidworks.",
+        "DownloadResume":"Download my resume"
     },
     "ContactMe":{
         "ContactMe": "Contact me",
-        "ContactMeTitle": "Déjame un Mensaje",
-        "ContactMeText": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id arcu eget orci tincidunt facilisis vel sed odio. Nullam at hendrerit nibh. Pellentesque vulputate ullamcorper fringilla. Duis sed commodo nisi, vitae tempor libero.",
+        "ContactMeTitle": "Drop me a message",
+        "ContactMeText": "You can leave me a message through my contact information or through the form.",
         "Phone": "304-545-0845",
         "Email": "kevinmartello@icloud.com",
         "Address": "Bogotá, Colombia",

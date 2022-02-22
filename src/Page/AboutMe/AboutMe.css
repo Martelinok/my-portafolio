@@ -77,7 +77,7 @@
     justify-content: flex-start;
     align-items: center;
     margin: 15px 0px 0px 0px;
-    padding: 0px;
+    padding: 0px 15px 0px 0px;
 }
 
 .AboutMe_Text_P {
@@ -86,7 +86,23 @@
     margin: 0px;
     padding: 0px;
 }
-
+.AboutMe_Button_Download{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 1px solid #FC5073;
+    border-radius: 5px;
+    margin: 15px 0px 0px 0px;
+    padding: 0px;
+}
+.AboutMe_Button_Download_Link{
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #FC5073;
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+}
 .AboutMe_Image_Content {
     width: 50%;
     display: flex;
@@ -149,7 +165,7 @@
     justify-content: center;
     align-items: center;
     margin: 0px;
-    padding: 0px;
+    padding: 0px 0px 0px 15px;
 }
 .MySkills_Title_Content{
     width: 100%;

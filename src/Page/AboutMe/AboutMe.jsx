@@ -1,12 +1,17 @@
 import React from "react";
 import { useTranslate } from "react-translate";
+import { AuthContext } from "../../Components/Context/auth";
 /* ---------------------------- Import Components --------------------------- */
 import Kcm from "../../assets/Images/Kcm-Layout.png";
-import Skills from "../../assets/Images/Skills.png";
+import Skills from "../../assets/Images/Skills2.svg";
+import Resume_en from "../../assets/documents/Resume_En.pdf";
+import Resume_es from "../../assets/documents/Resume_Es.pdf";
 /* ------------------------------ Import Style ------------------------------ */
 import './AboutMe.css';
 function AboutMe(params) {
     const t = useTranslate("AboutMe");
+    const { user } = React.useContext(AuthContext);
+    console.log("user", user);
     return (
         <React.Fragment>
             <div className="AboutMe_Container">
@@ -21,6 +26,15 @@ function AboutMe(params) {
                         </div>
                         <div className="AboutMe_Text_P_Content">
                             <p className="AboutMe_Text_P">{t("AboutMeText")}</p>
+                        </div>
+                        <div className="AboutMe_Button_Download">
+                            <a 
+                            href={user === "en" ? Resume_en : Resume_es}
+                            download="Kevin Martello Mayorga Cleveland"
+                            className="AboutMe_Button_Download_Link"
+                            >
+                            {t("DownloadResume")}
+                            </a>
                         </div>
                     </div>
                     <div className="AboutMe_Image_Content">
